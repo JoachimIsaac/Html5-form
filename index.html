@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>All Html Tags</title>
+    <!-- The is the part which appears on the tab -->
+
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="HTML,CSS,XML, JavaScript" />
+    <meta name="author" content="Joachim Isaac" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- These show up in the description section of the google search 
+    it also has key words and the viewport helps shape how the device will handle the page. css media queries and responsive design-->
+  </head>
+
+  <body>
+ 
+  <div>
+    <form action="/register.php" method="POST">
+      <label>First name</label>
+      <input type="text" name="FName" placeholder="John" required />
+</div>
+
+<label> Gender </label>
+<select name="Gender"> 
+ 
+  <option value="male">
+    Male
+  </option>
+
+  <option value="Female" selected>
+    Female
+  </option>
+
+  <option value="Unkown">
+
+    Don't want to disclose
+  </option>
+
+
+</select>
+
+
+<div>
+      <label> Last Name </label>
+      <input
+        type="text"
+        name="Lname"
+        placeholder="Doe"
+        required
+        value="smith"
+      />
+</div>
+
+<div>
+      <label>Email</label>
+      <input
+        type="email"
+        name="Email"
+        placeholder="johndoe@gmail.com"
+        required
+      />
+</div>
+
+<div>
+
+  <br/>
+
+<label> Relationship Status</label>
+<br/>
+
+<div>
+
+<input type="radio" name="relationship"> single <br/>
+
+<input type="radio" name="relationship"> Married <br/> 
+
+<input type="radio" name="relationship"  > Don't want to disclose <br/> 
+</div>
+<br/>
+
+<label> Description </label>
+<div>
+
+<textarea rows="15" cols="100" name="description"></textarea>
+
+</div>
+
+<br/>
+
+<div>
+      <input type="submit" value="SUBMIT" />
+
+  </div>
+    </form>
+  </body>
+</html>
